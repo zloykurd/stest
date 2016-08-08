@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allquest"
+            android:title="Все вопросы" />
+        <item
+            android:id="@+id/nav_afishagoroda"
+            android:title="Афиша города" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/exit"
+                android:title="exit" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondlyareg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="developer.zloykurd.sarafankg.SelectQuestionActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/iwonselectAct"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/accimg"
+                    android:padding="8dp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="280dp"
+                    android:background="@drawable/rahmatik"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/tvRahmatik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="275dp"
+                    android:layout_marginTop="25dp"
+                    android:padding="5dp"
+                    android:text="4564"
+                    android:textColor="#2b76c1" />
+
+                <TextView
+                    android:id="@+id/nameaccOnSelectAct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/iwonselectAct"
+                    android:layout_toRightOf="@+id/iwonselectAct"
+                    android:padding="5dp"
+                    android:text="NSurnaimov"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#2b76c1"
+                    android:textIsSelectable="false"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/acountlevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/iwonselectAct"
+                    android:layout_toRightOf="@+id/iwonselectAct"
+                    android:padding="5dp"
+                    android:text="Знаток(1024)"
+                    android:textColor="#a3a29e"
+                    android:textIsSelectable="false"
+                    android:textSize="11dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvquestionTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="80dp"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:text="@string/qtext"
+                    android:textColor="#fff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tvquestiontextDeolog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvquestionTheme"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:text="@string/qtext"
+                    android:textColor="#fff"
+                    android:textSize="12dp" />
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/image1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/accimg"
+                    android:layout_below="@+id/tvquestiontextDeolog"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:background="@drawable/accimg"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/tvquestiontextDeolog"
+                    android:layout_alignEnd="@+id/tvquestiontextDeolog" />
+                <ImageView
+                    android:id="@+id/image3"
+                    android:background="@drawable/accimg"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

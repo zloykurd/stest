@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SARAFAN.KG</string>
+    <string name="title_activity_sarafan_nd">SarafanNDActivity</string>
+    <string name="createfinish">ГОТОВА</string>
+    <string name="qtext">тут как и говорилось нужен сам вопрос и т.д.
+        тут как и говорилось нужен сам вопрос и т.д.
+        тут как и говорилось нужен сам вопрос и т.д.
+        тут как и говорилось нужен сам вопрос и т.д.
+        </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="datalist">
+        <item>Отметьте категорию...</item>
+        <item>Афиша города</item>
+        <item>Куда пойти</item>
+        <item>Досуг и Развлечение</item>
+        <item>Отдых и Туризм</item>
+        <item>Спорт</item>
+        <item>Городской чат</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+</resources>
